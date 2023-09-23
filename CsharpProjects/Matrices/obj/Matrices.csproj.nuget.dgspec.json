@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\lucia\\Desktop\\Peoyects\\C#\\CsharpProjects\\TestProject\\TestProject.csproj": {}
+    "C:\\Users\\lucia\\Desktop\\Peoyects\\C#\\CsharpProjects\\Matrices\\Matrices.csproj": {}
   },
   "projects": {
-    "c:\\Users\\lucia\\Desktop\\Peoyects\\C#\\CsharpProjects\\TestProject\\TestProject.csproj": {
+    "C:\\Users\\lucia\\Desktop\\Peoyects\\C#\\CsharpProjects\\Matrices\\Matrices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\lucia\\Desktop\\Peoyects\\C#\\CsharpProjects\\TestProject\\TestProject.csproj",
-        "projectName": "TestProject",
-        "projectPath": "c:\\Users\\lucia\\Desktop\\Peoyects\\C#\\CsharpProjects\\TestProject\\TestProject.csproj",
+        "projectUniqueName": "C:\\Users\\lucia\\Desktop\\Peoyects\\C#\\CsharpProjects\\Matrices\\Matrices.csproj",
+        "projectName": "Matrices",
+        "projectPath": "C:\\Users\\lucia\\Desktop\\Peoyects\\C#\\CsharpProjects\\Matrices\\Matrices.csproj",
         "packagesPath": "C:\\Users\\lucia\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\lucia\\Desktop\\Peoyects\\C#\\CsharpProjects\\TestProject\\obj\\",
+        "outputPath": "C:\\Users\\lucia\\Desktop\\Peoyects\\C#\\CsharpProjects\\Matrices\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucia\\AppData\\Roaming\\NuGet\\NuGet.Config",
