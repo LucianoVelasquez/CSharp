@@ -1,0 +1,14 @@
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\ternarios\bin\Debug\net7.0\ternarios.exe
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\ternarios\bin\Debug\net7.0\ternarios.deps.json
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\ternarios\bin\Debug\net7.0\ternarios.runtimeconfig.json
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\ternarios\bin\Debug\net7.0\ternarios.dll
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\ternarios\bin\Debug\net7.0\ternarios.pdb
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\ternarios\obj\Debug\net7.0\ternarios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\ternarios\obj\Debug\net7.0\ternarios.AssemblyInfoInputs.cache
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\ternarios\obj\Debug\net7.0\ternarios.AssemblyInfo.cs
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\ternarios\obj\Debug\net7.0\ternarios.csproj.CoreCompileInputs.cache
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\ternarios\obj\Debug\net7.0\ternarios.dll
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\ternarios\obj\Debug\net7.0\refint\ternarios.dll
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\ternarios\obj\Debug\net7.0\ternarios.pdb
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\ternarios\obj\Debug\net7.0\ternarios.genruntimeconfig.cache
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\ternarios\obj\Debug\net7.0\ref\ternarios.dll

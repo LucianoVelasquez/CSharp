@@ -104,5 +104,10 @@ internal class Program
         Console.WriteLine("Press the Enter key to continue");
         Console.ReadLine();
 
+        string[] nameRegiones = new string[10];
+        int[] regiones = new int[10];
+
+
+
     }
 }
