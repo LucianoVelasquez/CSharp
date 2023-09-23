@@ -1,0 +1,14 @@
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\Convenciones-codigolegible\Convenciones-codigolegible\bin\Debug\net7.0\Convenciones-codigolegible.exe
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\Convenciones-codigolegible\Convenciones-codigolegible\bin\Debug\net7.0\Convenciones-codigolegible.deps.json
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\Convenciones-codigolegible\Convenciones-codigolegible\bin\Debug\net7.0\Convenciones-codigolegible.runtimeconfig.json
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\Convenciones-codigolegible\Convenciones-codigolegible\bin\Debug\net7.0\Convenciones-codigolegible.dll
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\Convenciones-codigolegible\Convenciones-codigolegible\bin\Debug\net7.0\Convenciones-codigolegible.pdb
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\Convenciones-codigolegible\Convenciones-codigolegible\obj\Debug\net7.0\Convenciones-codigolegible.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\Convenciones-codigolegible\Convenciones-codigolegible\obj\Debug\net7.0\Convenciones-codigolegible.AssemblyInfoInputs.cache
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\Convenciones-codigolegible\Convenciones-codigolegible\obj\Debug\net7.0\Convenciones-codigolegible.AssemblyInfo.cs
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\Convenciones-codigolegible\Convenciones-codigolegible\obj\Debug\net7.0\Convenciones-codigolegible.csproj.CoreCompileInputs.cache
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\Convenciones-codigolegible\Convenciones-codigolegible\obj\Debug\net7.0\Convenciones-codigolegible.dll
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\Convenciones-codigolegible\Convenciones-codigolegible\obj\Debug\net7.0\refint\Convenciones-codigolegible.dll
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\Convenciones-codigolegible\Convenciones-codigolegible\obj\Debug\net7.0\Convenciones-codigolegible.pdb
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\Convenciones-codigolegible\Convenciones-codigolegible\obj\Debug\net7.0\Convenciones-codigolegible.genruntimeconfig.cache
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\Convenciones-codigolegible\Convenciones-codigolegible\obj\Debug\net7.0\ref\Convenciones-codigolegible.dll
