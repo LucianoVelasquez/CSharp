@@ -1,0 +1,14 @@
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\Matrices\bin\Debug\net7.0\Matrices.exe
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\Matrices\bin\Debug\net7.0\Matrices.deps.json
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\Matrices\bin\Debug\net7.0\Matrices.runtimeconfig.json
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\Matrices\bin\Debug\net7.0\Matrices.dll
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\Matrices\bin\Debug\net7.0\Matrices.pdb
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\Matrices\obj\Debug\net7.0\Matrices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\Matrices\obj\Debug\net7.0\Matrices.AssemblyInfoInputs.cache
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\Matrices\obj\Debug\net7.0\Matrices.AssemblyInfo.cs
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\Matrices\obj\Debug\net7.0\Matrices.csproj.CoreCompileInputs.cache
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\Matrices\obj\Debug\net7.0\Matrices.dll
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\Matrices\obj\Debug\net7.0\refint\Matrices.dll
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\Matrices\obj\Debug\net7.0\Matrices.pdb
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\Matrices\obj\Debug\net7.0\Matrices.genruntimeconfig.cache
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\Matrices\obj\Debug\net7.0\ref\Matrices.dll
