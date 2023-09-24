@@ -1,0 +1,14 @@
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\conceptos\bin\Debug\net7.0\conceptos.exe
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\conceptos\bin\Debug\net7.0\conceptos.deps.json
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\conceptos\bin\Debug\net7.0\conceptos.runtimeconfig.json
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\conceptos\bin\Debug\net7.0\conceptos.dll
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\conceptos\bin\Debug\net7.0\conceptos.pdb
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\conceptos\obj\Debug\net7.0\conceptos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\conceptos\obj\Debug\net7.0\conceptos.AssemblyInfoInputs.cache
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\conceptos\obj\Debug\net7.0\conceptos.AssemblyInfo.cs
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\conceptos\obj\Debug\net7.0\conceptos.csproj.CoreCompileInputs.cache
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\conceptos\obj\Debug\net7.0\conceptos.dll
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\conceptos\obj\Debug\net7.0\refint\conceptos.dll
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\conceptos\obj\Debug\net7.0\conceptos.pdb
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\conceptos\obj\Debug\net7.0\conceptos.genruntimeconfig.cache
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\conceptos\obj\Debug\net7.0\ref\conceptos.dll
