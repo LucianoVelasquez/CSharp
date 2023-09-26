@@ -1,0 +1,14 @@
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\create-methods\bin\Debug\net7.0\create-methods.exe
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\create-methods\bin\Debug\net7.0\create-methods.deps.json
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\create-methods\bin\Debug\net7.0\create-methods.runtimeconfig.json
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\create-methods\bin\Debug\net7.0\create-methods.dll
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\create-methods\bin\Debug\net7.0\create-methods.pdb
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\create-methods\obj\Debug\net7.0\create-methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\create-methods\obj\Debug\net7.0\create-methods.AssemblyInfoInputs.cache
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\create-methods\obj\Debug\net7.0\create-methods.AssemblyInfo.cs
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\create-methods\obj\Debug\net7.0\create-methods.csproj.CoreCompileInputs.cache
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\create-methods\obj\Debug\net7.0\create-methods.dll
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\create-methods\obj\Debug\net7.0\refint\create-methods.dll
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\create-methods\obj\Debug\net7.0\create-methods.pdb
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\create-methods\obj\Debug\net7.0\create-methods.genruntimeconfig.cache
+C:\Users\lucia\Desktop\Peoyects\C#\CsharpProjects\create-methods\obj\Debug\net7.0\ref\create-methods.dll
