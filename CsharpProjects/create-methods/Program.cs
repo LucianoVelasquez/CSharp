@@ -1,4 +1,6 @@
-﻿internal class Program
+﻿using System.Reflection;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
@@ -85,6 +87,46 @@
             return numero * 8;
         }
         Console.WriteLine(numeroModificado+"\n");
+
+        //Probando un simple case.
+        int dayOfWeek = 3;
+        string dayName;
+
+        switch (dayOfWeek)
+        {
+            case 1:
+                dayName = "Monday";
+                break;
+            case 2:
+                dayName = "Tuesday";
+                break;
+            default:
+                dayName = "Unknown";
+                break;
+        }
+
+        Console.WriteLine(dayName);
+
+        int x = 10;
+        double result = (double)x;
+        Console.WriteLine(result.GetType());
+
+        string[] nombrs = { "ana", "miguel", "celia", "antonio" };
+        string nombres = String.Join(" ", nombrs);
+        string num = "32";
+        int num1 = Convert.ToInt32(result);
+        Console.WriteLine(num1.GetType());
+        Console.WriteLine(nombres.ToUpper());
+       
+        int Prueba2()
+        {
+            int x = 10;
+            int y = 5;
+            return x % y;
+        }
+
+        Console.WriteLine(Prueba2());
+       
         
     }
 }
