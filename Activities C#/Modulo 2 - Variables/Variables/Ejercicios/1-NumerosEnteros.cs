@@ -20,14 +20,16 @@ namespace Variables.Ejercicios
 
     public class NumerosEnteros
     {
-        /* remueve esta línea para descomentar
+        //remueve esta línea para descomentar
         public int Ejercicio()
         {
             // Tu código debajo de esta línea
-
+            int elSignificadoDeLaVida = 42;
 
             return elSignificadoDeLaVida;
         }
-        */ //<-- remueve esta línea para descomentar
     }
 }
+
+
+        
