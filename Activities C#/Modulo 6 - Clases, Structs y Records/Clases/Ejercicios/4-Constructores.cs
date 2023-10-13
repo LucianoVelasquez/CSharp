@@ -12,6 +12,17 @@ namespace Clases.Ejercicios.Ejercicio4
 
     public class Persona
     {
+        public Persona(string nombre, string apellido)
+        {
+            Nombre = nombre;
+            Apellido = apellido;
+        }
+        public Persona(string nombre,string apellido,DateTime fechanacimiento)
+        {
+            Nombre= nombre;
+            Apellido= apellido;
+            FechaNacimiento = fechanacimiento;
+        }
         public string Nombre { get; set; }
         public string Apellido { get; set; }
         public DateTime FechaNacimiento { get; set; }

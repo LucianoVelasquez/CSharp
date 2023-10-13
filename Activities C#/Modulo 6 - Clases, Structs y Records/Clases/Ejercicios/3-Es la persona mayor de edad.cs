@@ -14,5 +14,13 @@ namespace Clases.Ejercicios.Ejercicio3
         public string Nombre { get; set; }
         public string Apellido { get; set; }
         public DateTime FechaNacimiento { get; set; }
+
+        public bool EsMayorDeEdad()
+        {
+
+            var ano = 2023 - (FechaNacimiento.Year);
+
+            return 18 > ano;
+        }
     }
 }
