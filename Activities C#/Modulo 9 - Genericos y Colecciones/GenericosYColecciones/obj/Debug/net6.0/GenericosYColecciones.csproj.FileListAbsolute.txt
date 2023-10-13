@@ -1,0 +1,4 @@
+C:\Users\lucia\Desktop\Peoyects\C#\Activities C#\Modulo 9 - Genericos y Colecciones\GenericosYColecciones\obj\Debug\net6.0\GenericosYColecciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucia\Desktop\Peoyects\C#\Activities C#\Modulo 9 - Genericos y Colecciones\GenericosYColecciones\obj\Debug\net6.0\GenericosYColecciones.AssemblyInfoInputs.cache
+C:\Users\lucia\Desktop\Peoyects\C#\Activities C#\Modulo 9 - Genericos y Colecciones\GenericosYColecciones\obj\Debug\net6.0\GenericosYColecciones.AssemblyInfo.cs
+C:\Users\lucia\Desktop\Peoyects\C#\Activities C#\Modulo 9 - Genericos y Colecciones\GenericosYColecciones\obj\Debug\net6.0\GenericosYColecciones.csproj.CoreCompileInputs.cache
