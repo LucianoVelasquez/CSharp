@@ -22,7 +22,7 @@ namespace WebApiAutores.Controllers
         }
 
         [HttpGet("{id:int}")]
-        public async Task<ActionResult<Autor>> Get(int id)
+        public async Task<ActionResult<Autor>> Get([FromRoute] int id)
         {
             var autor = await context.Autors.Include(x => x.Libros).FirstOrDefaultAsync(x => x.Id == id);
 
@@ -35,7 +35,7 @@ namespace WebApiAutores.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> Post(Autor autor)
+        public async Task<ActionResult> Post([FromBody] Autor autor)
         {
             context.Add(autor);
             await context.SaveChangesAsync();
@@ -43,7 +43,7 @@ namespace WebApiAutores.Controllers
         }
 
         [HttpPut("{id:int}")] // api/autores/id
-        public async Task<ActionResult> Put(Autor autor, int id)
+        public async Task<ActionResult> Put([FromBody] Autor autor,[FromRoute] int id)
         {
             if(autor.Id != id)
             {
@@ -56,7 +56,7 @@ namespace WebApiAutores.Controllers
         }
 
         [HttpDelete("{id:int}")]
-        public async Task<ActionResult> Delete(int id)
+        public async Task<ActionResult> Delete([FromRoute] int id)
         {
             var existe = await context.Autors.AnyAsync(x => x.Id == id);
 
