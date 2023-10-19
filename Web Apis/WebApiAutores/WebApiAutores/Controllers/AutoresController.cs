@@ -5,7 +5,7 @@ using WebApiAutores.Entidades;
 namespace WebApiAutores.Controllers
 {
     [ApiController]
-    [Route("api/autores")]
+    [Route("api/autores")] //Un ejemplo de ruta "api/[controller]" => [controller] = Toma el nombre de la clase, en este caso Autores.
     public class AutoresController: ControllerBase
     {
         private readonly AplicationDbContext context;
@@ -15,10 +15,23 @@ namespace WebApiAutores.Controllers
             this.context = context;
         }
 
-        [HttpGet]
+        [HttpGet] //Atributo de enrutamiento, decora el metodo del controlador.
         public async Task<ActionResult<List<Autor>>> Get()
         {
             return await context.Autors.Include(x => x.Libros).ToListAsync();
+        }
+
+        [HttpGet("{id:int}")]
+        public async Task<ActionResult<Autor>> Get(int id)
+        {
+            var autor = await context.Autors.Include(x => x.Libros).FirstOrDefaultAsync(x => x.Id == id);
+
+            if (autor == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(autor);
         }
 
         [HttpPost]
