@@ -5,11 +5,24 @@
 namespace WebApiAutores.Migrations
 {
     /// <inheritdoc />
-    public partial class Libros : Migration
+    public partial class Inicial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.CreateTable(
+                name: "Autors",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nombre = table.Column<string>(type: "nvarchar(4)", maxLength: 4, nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Autors", x => x.Id);
+                });
+
             migrationBuilder.CreateTable(
                 name: "Libros",
                 columns: table => new
@@ -41,6 +54,9 @@ namespace WebApiAutores.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Libros");
+
+            migrationBuilder.DropTable(
+                name: "Autors");
         }
     }
 }

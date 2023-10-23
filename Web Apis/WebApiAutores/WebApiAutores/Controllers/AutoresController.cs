@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using WebApiAutores.DTOS;
 using WebApiAutores.Entidades;
 
 namespace WebApiAutores.Controllers
@@ -9,34 +11,40 @@ namespace WebApiAutores.Controllers
     public class AutoresController: ControllerBase
     {
         private readonly AplicationDbContext context;
+        private readonly IMapper mapper;
 
-        public AutoresController(AplicationDbContext context)
+        public AutoresController(AplicationDbContext context,IMapper mapper)
         {
             this.context = context;
+            this.mapper = mapper;
         }
 
         [HttpGet] //Atributo de enrutamiento, decora el metodo del controlador.
-        public async Task<ActionResult<List<Autor>>> Get()
+        public async Task<ActionResult<List<AutorDTO>>> Get()
         {
-            return await context.Autors.Include(x => x.Libros).ToListAsync();
+            var autores = await context.Autors.Include(x => x.Libros).ToListAsync();
+
+            return mapper.Map<List<AutorDTO>>(autores);
         }
 
         [HttpGet("{id:int}")]
-        public async Task<ActionResult<Autor>> Get([FromRoute] int id)
+        public async Task<ActionResult<AutorDTO>> Get([FromRoute] int id)
         {
-            var autor = await context.Autors.Include(x => x.Libros).FirstOrDefaultAsync(x => x.Id == id);
+            var autor = await context.Autors.Include(autorDB => autorDB.Libros).FirstOrDefaultAsync(autorDB => autorDB.Id == id);
 
             if (autor == null)
             {
                 return NotFound();
             }
 
-            return Ok(autor);
+            return mapper.Map<AutorDTO>(autor);
         }
 
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] Autor autor)
+        public async Task<ActionResult> Post([FromBody] AutorCreacionDTO autorCreacionDTO)
         {
+            var autor = mapper.Map<Autor>(autorCreacionDTO);
+
             context.Add(autor);
             await context.SaveChangesAsync();
             return Ok();

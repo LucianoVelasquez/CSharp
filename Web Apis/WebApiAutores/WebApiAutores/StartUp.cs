@@ -19,11 +19,12 @@ namespace WebApiAutores
             services.AddDbContext<AplicationDbContext>(options => 
                     options.UseSqlServer(Configuration.GetConnectionString("defaultConnection")));
 
-           
 
             services.AddEndpointsApiExplorer();
 
             services.AddSwaggerGen();
+
+            services.AddAutoMapper(typeof(StartUp));
         }
         public void Configure(IApplicationBuilder app,IWebHostEnvironment env)
         {

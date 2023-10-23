@@ -3,7 +3,7 @@ using WebApiAutores.Entidades;
 
 namespace WebApiAutores
 {
-    public class AplicationDbContext : DbContext
+    public class AplicationDbContext : DbContext //En esta clase vamos a crear las tablas de nuestra BD
     {
         public AplicationDbContext(DbContextOptions options) : base(options)
         {
