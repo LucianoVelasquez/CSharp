@@ -1,6 +1,6 @@
-﻿namespace WebApiAutores.Entidades
+﻿namespace WebApiAutores.DTOS
 {
-    public class Libro
+    public class LibroDTO
     {
         public int Id { get; set; }
         public string Titulo { get; set; }
