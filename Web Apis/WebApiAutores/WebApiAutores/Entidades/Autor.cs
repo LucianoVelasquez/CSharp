@@ -10,7 +10,8 @@ namespace WebApiAutores.Entidades
         [StringLength(maximumLength:4,ErrorMessage = "El campo {0} no debe tener mas de 4 caracteres.")]
         public string Nombre { get; set; }
 
-        public List<Libro> Libros { get; set; }
+        
+        public List<AutorLibro> AutoresLibros { get; set; }
 
     }
 }
