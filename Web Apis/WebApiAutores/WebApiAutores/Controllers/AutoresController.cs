@@ -22,7 +22,7 @@ namespace WebApiAutores.Controllers
         [HttpGet] //Atributo de enrutamiento, decora el metodo del controlador.
         public async Task<ActionResult<List<AutorDTO>>> Get()
         {
-            var autores = await context.Autors.Include(x => x.Libros).ToListAsync();
+            var autores = await context.Autores.ToListAsync();
 
             return mapper.Map<List<AutorDTO>>(autores);
         }
@@ -30,7 +30,7 @@ namespace WebApiAutores.Controllers
         [HttpGet("{id:int}")]
         public async Task<ActionResult<AutorDTO>> Get([FromRoute] int id)
         {
-            var autor = await context.Autors.Include(autorDB => autorDB.Libros).FirstOrDefaultAsync(autorDB => autorDB.Id == id);
+            var autor = await context.Autores.FirstOrDefaultAsync(autorDB => autorDB.Id == id);
 
             if (autor == null)
             {
@@ -66,7 +66,7 @@ namespace WebApiAutores.Controllers
         [HttpDelete("{id:int}")]
         public async Task<ActionResult> Delete([FromRoute] int id)
         {
-            var existe = await context.Autors.AnyAsync(x => x.Id == id);
+            var existe = await context.Autores.AnyAsync(x => x.Id == id);
 
             if (!existe) return NotFound();
 
