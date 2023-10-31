@@ -11,7 +11,7 @@ namespace WebApiAutores.Entidades
         public string Nombre { get; set; }
 
         
-        public List<AutorLibro> AutoresLibros { get; set; }
+        public List<AutorLibro> AutoresLibros { get; set; } //Relacion muchos a muchos
 
     }
 }
