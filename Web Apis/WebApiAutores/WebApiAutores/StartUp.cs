@@ -14,7 +14,9 @@ namespace WebApiAutores
 
         public void ConfigureServices(IServiceCollection services) //Sistema de inyenccion de dependencia.
         {
-            services.AddControllers().AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
+            services.AddControllers()
+                .AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles)
+                .AddNewtonsoftJson();
 
             services.AddDbContext<AplicationDbContext>(options => 
                     options.UseSqlServer(Configuration.GetConnectionString("defaultConnection")));
