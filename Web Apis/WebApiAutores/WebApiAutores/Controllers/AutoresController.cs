@@ -12,11 +12,13 @@ namespace WebApiAutores.Controllers
     {
         private readonly AplicationDbContext context;
         private readonly IMapper mapper;
+        private readonly IConfiguration configuration;
 
-        public AutoresController(AplicationDbContext context, IMapper mapper)
+        public AutoresController(AplicationDbContext context, IMapper mapper,IConfiguration configuration)
         {
             this.context = context;
             this.mapper = mapper;
+            this.configuration = configuration;
         }
 
         [HttpGet] //Atributo de enrutamiento, decora el metodo del controlador.
@@ -75,6 +77,15 @@ namespace WebApiAutores.Controllers
             context.Remove(new Autor { Id = id });
             await context.SaveChangesAsync();
             return Ok();
+        }
+
+        [HttpGet("configuraciones")]
+        public ActionResult<string[]> OntenerConfiguracion()
+        {
+            var apellido = new [] { configuration["apellido2"], configuration["connectionStrings:defaultConnection"] };
+            //apellido2 viene de variable de entorno. "Depurar/Propiedad de APP"
+            //el segundo agurmento viene de appsettings.develoment.json //conexion a bd
+            return apellido; 
         }
     }
 }
