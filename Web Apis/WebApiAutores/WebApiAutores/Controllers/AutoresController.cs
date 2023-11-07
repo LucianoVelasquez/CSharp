@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebApiAutores.DTOS;
@@ -22,6 +24,7 @@ namespace WebApiAutores.Controllers
         }
 
         [HttpGet] //Atributo de enrutamiento, decora el metodo del controlador.
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         public async Task<ActionResult<List<AutorDTO>>> Get()
         {
             var autores = await context.Autores.ToListAsync();

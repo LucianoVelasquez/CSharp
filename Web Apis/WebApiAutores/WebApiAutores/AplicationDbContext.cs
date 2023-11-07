@@ -1,9 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using WebApiAutores.Entidades;
 
 namespace WebApiAutores
 {
-    public class AplicationDbContext : DbContext //En esta clase vamos a crear las tablas de nuestra BD
+    public class AplicationDbContext : IdentityDbContext //En esta clase vamos a crear las tablas de nuestra BD
     {
         public AplicationDbContext(DbContextOptions options) : base(options)
         {
