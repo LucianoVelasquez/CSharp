@@ -71,6 +71,13 @@ namespace WebApiAutores
             services.AddIdentity<IdentityUser, IdentityRole>()
                 .AddEntityFrameworkStores<AplicationDbContext>()
                 .AddDefaultTokenProviders();
+            services.AddCors(optiones =>
+            {
+                optiones.AddDefaultPolicy(builder =>
+                {
+                    builder.WithOrigins("").AllowAnyMethod().AllowAnyHeader(); //Condiguracion de CORS. "..Aqui van las URLS"
+                });
+            });
         }
         public void Configure(IApplicationBuilder app,IWebHostEnvironment env)
         {
@@ -94,6 +101,8 @@ namespace WebApiAutores
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors();
 
             app.UseAuthorization();
 
