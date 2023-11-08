@@ -17,6 +17,7 @@ namespace WebApiAutores
 
         public IConfiguration Configuration { get; }
 
+        
         public void ConfigureServices(IServiceCollection services) //Sistema de inyenccion de dependencia.
         {
             services.AddControllers()
@@ -78,6 +79,8 @@ namespace WebApiAutores
                     builder.WithOrigins("").AllowAnyMethod().AllowAnyHeader(); //Condiguracion de CORS. "..Aqui van las URLS"
                 });
             });
+            
+            services.AddApplicationInsightsTelemetry(Configuration["ApplicationInsights:ConnectionString"]);
         }
         public void Configure(IApplicationBuilder app,IWebHostEnvironment env)
         {
@@ -94,9 +97,11 @@ namespace WebApiAutores
 
             if (env.IsDevelopment())
             {
-                app.UseSwagger();
-                app.UseSwaggerUI();
+                
             }
+
+            app.UseSwagger();
+            app.UseSwaggerUI();
 
             app.UseHttpsRedirection();
 
